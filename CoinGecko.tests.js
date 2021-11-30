@@ -1,5 +1,5 @@
 //Helpers
-const CoinGecko = require("coingecko-api-pro");
+const CoinGecko = require("../lib/CoinGecko");
 const _client = new CoinGecko()
 const shared = require('./shared');
 
