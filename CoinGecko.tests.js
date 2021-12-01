@@ -1,5 +1,5 @@
 //Helpers
-const CoinGecko = require("../lib/CoinGecko");
+const CoinGecko = require("../CoinGecko_NodeJs/lib/CoinGecko");
 const _client = new CoinGecko()
 const shared = require('./shared');
 
@@ -37,10 +37,10 @@ describe('Simple',function(){
 
   describe('Simple Price',function (){
     before(function (done){
-      _client.simple.price(
-        {ids : "bitcoin"},
-        {vs_currencies : "usd"})
-            .then((data) => {
+      _client.simple.price({
+        ids : "bitcoin",
+        vs_currencies : "usd"}
+        ).then((data) => {
                           this.data = data;
                           done()
       });

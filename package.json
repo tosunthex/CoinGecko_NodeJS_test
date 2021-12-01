@@ -4,13 +4,12 @@
   "description": "",
   "main": "CoinGecko.tests.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "Mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.4",
-    "coingecko-api-pro": "^1.0.6",
     "mocha": "^9.1.3"
   }
 }
