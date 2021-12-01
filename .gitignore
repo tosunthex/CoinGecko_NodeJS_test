@@ -108,3 +108,6 @@ dist
 
 # Github
 .github/
+
+#Coingecko file must be pointing different folder for testing in local and github action
+Coingecko.js
