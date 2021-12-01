@@ -1,2 +1,2 @@
-const CoinGecko = require("../CoinGecko_NodeJs/lib/CoinGecko");
+const CoinGecko = require("../lib/CoinGecko");
 module.exports = CoinGecko;
