@@ -1,5 +1,5 @@
 //Helpers
-const CoinGecko = require("../CoinGecko_NodeJs/lib/CoinGecko");
+const CoinGecko = require("./CoinGecko");
 const _client = new CoinGecko()
 const shared = require('./shared');
 
